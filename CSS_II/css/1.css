@@ -1,0 +1,26 @@
+/* -- Direct Child -- */
+div > p{
+    background: #aaa;
+}
+/* -- Directly After -- */
+div + p{
+    background: black;
+    color: white;
+}
+/* -- By Attribute -- */
+
+a[target]{
+    text-decoration: none;
+}
+
+a[target = '_self']{
+    background: black;
+    color:white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+a[target = '_self']:hover{
+    padding: 0.55rem;
+    margin: 0;
+}
